@@ -1,5 +1,5 @@
 
-
+alert("hello); 
 
 $(window).on("load",function() {
   $(window).scroll(function() {
