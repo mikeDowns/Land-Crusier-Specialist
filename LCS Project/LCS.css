@@ -1,19 +1,31 @@
 
       
   	
-
-
-body {
-  background-image:
-
-      url("https://cdn.bringatrailer.com/wp-content/uploads/2018/10/1987_toyota_land_cruiser_fj60_15397232071c3e7bebd2b9a60dIMG_4157-940x657.jpg"); 
-
-background-size: cover; 
-background-repeat: no-repeat;
+body{
+	background-color: #7f909e;
+	
+	font-family: 'Oswald', sans-serif;
 
 }
 
+.wrapper {
+  background-image:
 
+      url("https://images.unsplash.com/photo-1523394397008-7c076b65a890?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80"); 
+
+
+position: static;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+   text-align: center; 
+
+}
+
+h1{
+	font-size: 50px;
+}
 
 h1, h4{
 	color: #ece3c3;
@@ -24,6 +36,8 @@ h1, h4{
     -1px 1px 0 #000,
     1px 1px 0 #000; 
     margin-bottom: 2px; 
+ font-family: 'Rubik Mono One', sans-serif;
+
 }
 
 .line{
@@ -36,28 +50,29 @@ h1, h4{
 #welcome{
 	color: white;
 	background-color: rgba(0, 0, 0, 0.2);
+	font-size: 20px; 
 }
 
 
 #first{
-	background: rgb(244, 188, 66, 0.3);
+	background: rgb(244, 188, 66, 0.2);
 	text-align: center;
 	color: white;
+	align-items: center;
 	
 }
 
-#tlca {
-	 gold; }
+
 
 #second{
-	background: rgb(239, 61, 11, 0.3);
+	background: rgb(239, 61, 11, 0.2);
 	text-align: center; 
 	color: white;
 
 }
 
 #third{
-	background: rgb(11, 71, 234, 0.3);
+	background: rgb(11, 71, 234, 0.2);
 	text-align: center; 
 	color: white;
 }
@@ -65,3 +80,37 @@ h1, h4{
 .description{
 	color: #4682b4; 
 }
+
+li{
+	list-style-type: none;
+	text-align: center;
+	align-items: center;
+	
+}
+
+ul{
+	align-items: center;
+	text-align: center;
+	padding-right: 40px;
+}
+#rating{
+	text-align: center;
+}
+#googlerev{
+	max-height: 300px;
+	max-width: 300px; 
+
+}
+
+#hour{
+	width: 0px;
+}
+
+.fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
+
+
